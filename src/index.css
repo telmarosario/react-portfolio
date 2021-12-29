@@ -1,13 +1,242 @@
-body {
+/* Modify the backgorund color */
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 10px;
+  font-family: "Roboto Mono", monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-custom {
+  background-color: #010102;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: rgb(133, 132, 132);
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+  color: rgb(248, 246, 246);
+}
+
+.det-nav {
+  margin-right: 50px;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+main {
+  height: 85vh;
+  background-color: #010102;
+  padding: 10% 15%;
+  text-align: center;
+}
+
+main h1 {
+  color: white;
+  font-size: 10vh;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+main h2 {
+  color: white;
+  font-size: 4vh;
+}
+
+@media only screen and (max-width: 768px) {
+  #introduction {
+    background-color: #9ebace;
+    padding: 10%;
+    display: block;
+    color: black;
+  }
+  #introduction p,
+  b {
+    font-size: 3vh;
+  }
+
+  #introduction li {
+    list-style-type: none;
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
+
+  .intro-paragraphs {
+    text-align: left;
+  }
+
+  .intro-paragraphs p {
+    margin-bottom: 5vh;
+  }
+
+  .intro-paragraphs ul {
+    padding: 0.5vw;
+  }
+
+  .intro-paragraphs h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+  .extra-intro h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+
+  .extra-intro ul {
+    padding: 1vw;
+  }
+
+  .goals {
+    background-color: #9ebace;
+    height: 70vh;
+  }
+
+  #contacts {
+    height: 60vh;
+    background-color: #010102;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #introduction {
+    background-color: #9ebace;
+    padding: 5%;
+    display: flex;
+    color: black;
+  }
+  #introduction p,
+  b {
+    font-size: 3vh;
+  }
+
+  #introduction li {
+    list-style-type: none;
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
+
+  .intro-paragraphs {
+    width: 50vw;
+    text-align: left;
+    margin-right: 8vw;
+  }
+
+  .intro-paragraphs p {
+    margin-bottom: 5vh;
+  }
+
+  .intro-paragraphs ul {
+    padding: 0.5vw;
+  }
+
+  .intro-paragraphs h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+
+  .extra-intro h2 {
+    font-style: italic;
+    font-size: 3.3vh;
+  }
+
+  .extra-intro ul {
+    padding: 1vw;
+  }
+
+  .goals {
+    background-color: #9ebace;
+    height: 70vh;
+  }
+
+  #contacts {
+    height: 60vh;
+    background-color: #010102;
+    color: white;
+  }
+}
+
+#projects {
+  background-color: #010102;
+  padding: 2% 5%;
+}
+
+#projects a {
+  text-decoration: none;
+  color: white;
+  font-size: 2vh;
+  font-weight: 500;
+}
+
+#projects h2 {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 5vh;
+  margin-bottom: 4vh;
+}
+
+#projects img {
+  height: 50vh;
+  border: 3px solid gray;
+  border-radius: 1%;
+}
+
+.project-container {
+  display: flex;
+  margin-top: 10vh;
+}
+
+.project-description {
+  color: white;
+}
+
+.project-description h3 {
+  font-size: 4vh;
+  font-style: italic;
+}
+
+.project-description p {
+  font-size: 2.5vh;
+  margin-top: 3vh;
+}
+
+.booksway-paragraphs {
+  margin-right: 8vw;
+}
+
+.langeek-paragraphs {
+  margin-left: 8vw;
+}
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  font-size: 2vh;
+  font-weight: 500;
+  background-color: transparent;
+  border: 2px solid #9ebace;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  line-height: normal;
+  margin: 3vh 1vw 0 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 13vw;
+  will-change: transform;
+}
+
+.button-28:hover {
+  color: black;
+  background-color: #9ebace;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
 }

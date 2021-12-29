@@ -25,6 +25,10 @@
   height: 50vh;
 }
 
+.intro-booksway-img {
+  height: 45vh;
+}
+
 .intro-langeek {
   display: flex;
   margin-top: 5vh;
@@ -86,4 +90,37 @@
   font-size: 2vh;
   font-style: italic;
   margin-top: 2vh;
+}
+
+.award {
+  border: 2px solid #9ebace;
+  border-radius: 15px;
+  background-color: #9ebace;
+  color: black;
+  width: 20vw;
+  font-style: italic;
+  align-self: center;
+  padding: 1vh;
+  display: inline-block;
+  margin: 3vh 0;
+}
+
+.award h4 {
+  font-size: 2.5vh;
+  font-weight: 600;
+}
+
+.award img {
+  width: 4vh;
+}
+
+.post-info b {
+  display: block;
+  margin-top: 3vh;
+  font-size: 3vh;
+}
+
+.post-info li {
+  margin-top: 1vh;
+  font-size: 2vh;
 }

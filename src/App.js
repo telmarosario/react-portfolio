@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
-import BookswayCase from "./case_studies/BookswayCase";
+import BookswayCase from "./case_studies/BookswayCase/BookswayCase";
 import LangeekCase from "./case_studies/LangeekCase/LangeekCase";
 import Homepage from "./Homepage";
 

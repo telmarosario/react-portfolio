@@ -89,8 +89,8 @@ function LangeekCase() {
                 posts, save posts, visit other people's profiles and much more.
               </p>
               <p>
-                On their profile, they have access to update their own profile,
-                see their saved posts and log-out.
+                On their profile, they have access to the update feauture, they
+                can see their saved posts and log-out.
               </p>
             </div>
           </div>

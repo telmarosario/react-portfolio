@@ -21,7 +21,7 @@
   margin-right: 2vw;
 }
 
-.intro-langeek img {
+.intro-langeek-img {
   height: 50vh;
 }
 
@@ -51,4 +51,39 @@
 
 .langeek-details p {
   font-size: 2.5vh;
+}
+
+.langeek-flex {
+  display: flex;
+}
+
+.signup-info {
+  padding: 2vw;
+  border: solid 0.5vw black;
+  text-align: left;
+  margin-right: 5vw;
+  margin-bottom: 9vh;
+}
+
+.signup-info span {
+  font-size: 1.8vh;
+}
+
+.post-info {
+  padding: 2vw;
+  border: solid 0.5vw black;
+  text-align: left;
+  margin-left: 5vw;
+  margin-top: 10vh;
+  max-height: 50vh;
+}
+
+.post-img {
+  height: 70vh;
+}
+
+.responsive-span {
+  font-size: 2vh;
+  font-style: italic;
+  margin-top: 2vh;
 }

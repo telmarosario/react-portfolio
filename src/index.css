@@ -242,6 +242,10 @@ main h2 {
   margin-left: 8vw;
 }
 
+.hidden {
+  display: none;
+}
+
 /* CSS */
 .button-28 {
   appearance: none;
@@ -263,7 +267,7 @@ main h2 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 13vw;
+  min-width: 13vw;
   will-change: transform;
 }
 

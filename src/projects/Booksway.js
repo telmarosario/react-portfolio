@@ -1,4 +1,5 @@
 import bookswayDemo from "./booksway-demo.jpg";
+import { Link } from "react-router-dom";
 
 function Booksway() {
   return (
@@ -23,7 +24,9 @@ function Booksway() {
           <button className="button-28">Live project</button>
         </a>
 
-        <button className="button-28">Case study</button>
+        <Link to="/booksway">
+          <button className="button-28">Case study</button>
+        </Link>
       </div>
       <img src={bookswayDemo} alt=" booksway demo" />
     </div>

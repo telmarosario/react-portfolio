@@ -1,4 +1,5 @@
 import langeekDemo from "./langeek-demo.jpg";
+import { Link } from "react-router-dom";
 
 function Langeek() {
   return (
@@ -18,7 +19,9 @@ function Langeek() {
           <button className="button-28">Live project</button>
         </a>
 
-        <button className="button-28">Case study</button>
+        <Link to="/langeek">
+          <button className="button-28">Case study</button>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import logo from "./nav-image.png";
 
-function Nav() {
+function Nav({ isProjectPage }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-custom">
       <div className="container-fluid">
@@ -20,7 +20,7 @@ function Nav() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className={isProjectPage ? "hidden" : "navbar-nav ms-auto"}>
             <li className="nav-item">
               <a className="nav-link det-nav" href="#introduction">
                 About me

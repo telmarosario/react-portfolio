@@ -1,146 +1,317 @@
-.case-study {
-  background-color: #010102;
-  color: white;
-  text-align: center;
-  padding: 2% 10%;
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .case-study {
+    background-color: #010102;
+    color: white;
+    text-align: center;
+    padding: 2% 10%;
+  }
+
+  .case-study h1 {
+    font-size: 8vh;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+
+  .case-study p {
+    font-size: 2.5vh;
+    font-weight: 500;
+  }
+
+  .logo {
+    width: 12vh;
+    margin-right: 2vw;
+  }
+
+  .intro-langeek-img {
+    height: 25vh;
+    margin-top: 2vh;
+  }
+
+  .intro-booksway-img {
+    height: 20vh;
+  }
+
+  .books-search {
+    height: 20vh;
+  }
+
+  .intro-langeek {
+    margin-top: 5vh;
+  }
+
+  .langeek-ps {
+    padding: 2vw;
+    border: solid 0.5vw #9ebace;
+    text-align: left;
+    margin-top: 5vw;
+  }
+
+  .langeek-ps p {
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+  }
+
+  .langeek-details {
+    background-color: #9ebace;
+    color: black;
+    text-align: center;
+    padding: 5% 10%;
+  }
+
+  .langeek-details p {
+    font-size: 2.5vh;
+  }
+
+  .signup-info {
+    padding: 2vw;
+    border: solid 0.5vw black;
+    text-align: left;
+    margin-right: 5vw;
+    margin-bottom: 9vh;
+  }
+
+  .signup-info span {
+    font-size: 1.8vh;
+  }
+
+  .post-info {
+    padding: 2vw;
+    border: solid 0.5vw black;
+    text-align: left;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
+
+  .post-img {
+    height: 40vh;
+    margin-top: 4vh;
+  }
+
+  .responsive-span {
+    font-size: 2vh;
+    font-style: italic;
+    margin-top: 2vh;
+  }
+
+  .award {
+    border: 2px solid #9ebace;
+    border-radius: 15px;
+    background-color: #9ebace;
+    color: black;
+    width: 80vw;
+    font-style: italic;
+    align-self: center;
+    padding: 1vh;
+    display: inline-block;
+    margin: 3vh 0;
+  }
+
+  .award h4 {
+    font-size: 2.5vh;
+    font-weight: 600;
+  }
+
+  .award img {
+    width: 4vh;
+  }
+
+  .post-info b {
+    display: block;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  .post-info li {
+    margin-top: 1vh;
+    font-size: 2vh;
+  }
+
+  .booksway-responsive {
+    padding: 2vw;
+    border: solid 0.5vw black;
+    height: 50vh;
+    text-align: left;
+    margin-left: 5vw;
+  }
+
+  .booksway-responsive span {
+    font-size: 2.5vh;
+  }
+
+  .book-responsive {
+    height: 70vh;
+  }
+
+  .booksway-responsive b {
+    display: block;
+    margin-top: 3vh;
+  }
+
+  .booksway-responsive li {
+    font-size: 2.3vh;
+  }
+
+  .langeek-profile {
+    height: 20vh;
+  }
 }
 
-.case-study h1 {
-  font-size: 8vh;
-  font-style: italic;
-  margin-bottom: 2rem;
-}
+/* Larger devices */
 
-.case-study p {
-  font-size: 2.5vh;
-  font-weight: 500;
-}
+@media only screen and (min-width: 769px) {
+  .case-study {
+    background-color: #010102;
+    color: white;
+    text-align: center;
+    padding: 2% 10%;
+  }
 
-.logo {
-  width: 18vh;
-  margin-right: 2vw;
-}
+  .case-study h1 {
+    font-size: 8vh;
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
 
-.intro-langeek-img {
-  height: 50vh;
-}
+  .case-study p {
+    font-size: 2.5vh;
+    font-weight: 500;
+  }
 
-.intro-booksway-img {
-  height: 45vh;
-}
+  .logo {
+    width: 18vh;
+    margin-right: 2vw;
+  }
 
-.intro-langeek {
-  display: flex;
-  margin-top: 5vh;
-}
+  .intro-langeek-img {
+    height: 50vh;
+  }
 
-.langeek-ps {
-  padding: 2vw;
-  border: solid 0.5vw #9ebace;
-  text-align: left;
-  margin-left: 5vw;
-}
+  .langeek-profile {
+    height: 50vh;
+  }
 
-.langeek-ps p {
-  font-size: 2.5vh;
-  margin-bottom: 2vh;
-}
+  .intro-booksway-img {
+    height: 45vh;
+  }
 
-.langeek-details {
-  background-color: #9ebace;
-  color: black;
-  text-align: center;
-  padding: 5% 10%;
-}
+  .books-search {
+    height: 45vh;
+  }
 
-.langeek-details p {
-  font-size: 2.5vh;
-}
+  .intro-langeek {
+    display: flex;
+    margin-top: 5vh;
+  }
 
-.langeek-flex {
-  display: flex;
-}
+  .langeek-ps {
+    padding: 2vw;
+    border: solid 0.5vw #9ebace;
+    text-align: left;
+    margin-left: 5vw;
+  }
 
-.signup-info {
-  padding: 2vw;
-  border: solid 0.5vw black;
-  text-align: left;
-  margin-right: 5vw;
-  margin-bottom: 9vh;
-}
+  .langeek-ps p {
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+  }
 
-.signup-info span {
-  font-size: 1.8vh;
-}
+  .langeek-details {
+    background-color: #9ebace;
+    color: black;
+    text-align: center;
+    padding: 5% 10%;
+  }
 
-.post-info {
-  padding: 2vw;
-  border: solid 0.5vw black;
-  text-align: left;
-  margin-left: 5vw;
-  margin-top: 10vh;
-}
+  .langeek-details p {
+    font-size: 2.5vh;
+  }
 
-.post-img {
-  height: 70vh;
-}
+  .langeek-flex {
+    display: flex;
+  }
 
-.responsive-span {
-  font-size: 2vh;
-  font-style: italic;
-  margin-top: 2vh;
-}
+  .signup-info {
+    padding: 2vw;
+    border: solid 0.5vw black;
+    text-align: left;
+    margin-right: 5vw;
+    margin-bottom: 9vh;
+  }
 
-.award {
-  border: 2px solid #9ebace;
-  border-radius: 15px;
-  background-color: #9ebace;
-  color: black;
-  width: 20vw;
-  font-style: italic;
-  align-self: center;
-  padding: 1vh;
-  display: inline-block;
-  margin: 3vh 0;
-}
+  .signup-info span {
+    font-size: 1.8vh;
+  }
 
-.award h4 {
-  font-size: 2.5vh;
-  font-weight: 600;
-}
+  .post-info {
+    padding: 2vw;
+    border: solid 0.5vw black;
+    text-align: left;
+    margin-left: 5vw;
+    margin-top: 10vh;
+  }
 
-.award img {
-  width: 4vh;
-}
+  .post-img {
+    height: 70vh;
+  }
 
-.post-info b {
-  display: block;
-  margin-top: 3vh;
-  font-size: 3vh;
-}
+  .responsive-span {
+    font-size: 1.9vh;
+    font-style: italic;
+    margin-top: 1vh;
+  }
 
-.post-info li {
-  margin-top: 1vh;
-  font-size: 2vh;
-}
+  .award {
+    border: 2px solid #9ebace;
+    border-radius: 15px;
+    background-color: #9ebace;
+    color: black;
+    width: 20vw;
+    font-style: italic;
+    align-self: center;
+    padding: 1vh;
+    display: inline-block;
+    margin: 3vh 0;
+  }
 
-.booksway-responsive {
-  padding: 2vw;
-  border: solid 0.5vw black;
-  height: 50vh;
-  text-align: left;
-  margin-left: 5vw;
-}
+  .award h4 {
+    font-size: 2.5vh;
+    font-weight: 600;
+  }
 
-.booksway-responsive span {
-  font-size: 2.5vh;
-}
+  .award img {
+    width: 4vh;
+  }
 
-.booksway-responsive b {
-  display: block;
-  margin-top: 3vh;
-}
+  .post-info b {
+    display: block;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
 
-.booksway-responsive li {
-  font-size: 2.3vh;
+  .post-info li {
+    margin-top: 1vh;
+    font-size: 2vh;
+  }
+
+  .booksway-responsive {
+    padding: 2vw;
+    border: solid 0.5vw black;
+    height: 50vh;
+    text-align: left;
+    margin-left: 5vw;
+  }
+
+  .booksway-responsive span {
+    font-size: 2.5vh;
+  }
+
+  .booksway-responsive b {
+    display: block;
+    margin-top: 3vh;
+  }
+
+  .booksway-responsive li {
+    font-size: 2.3vh;
+  }
 }

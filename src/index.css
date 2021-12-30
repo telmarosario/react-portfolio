@@ -88,7 +88,6 @@ main h2 {
 
   .goals {
     background-color: #5d7e96;
-    height: 70vh;
     padding: 10% 15%;
     text-align: center;
   }
@@ -97,6 +96,96 @@ main h2 {
     height: 60vh;
     background-color: #010102;
     color: white;
+  }
+
+  #projects {
+    background-color: #010102;
+    padding: 2% 5%;
+    text-align: center;
+  }
+
+  #projects a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    font-weight: 500;
+  }
+
+  #projects h2 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 5vh;
+    margin-bottom: 4vh;
+  }
+
+  .projects-books-img {
+    height: 40vh;
+    border: 3px solid gray;
+    border-radius: 1%;
+  }
+
+  .project-container {
+    margin-top: 10vh;
+  }
+
+  .project-lan-img {
+    height: 25vh;
+    margin-bottom: 4vh;
+  }
+
+  .project-description {
+    color: white;
+  }
+
+  .project-description h3 {
+    font-size: 4vh;
+    font-style: italic;
+  }
+
+  .project-description p {
+    font-size: 2.5vh;
+    margin-top: 3vh;
+  }
+
+  .booksway-paragraphs {
+    margin-right: 8vw;
+  }
+
+  .langeek-paragraphs {
+    margin-left: 8vw;
+  }
+
+  .goals h3 {
+    font-style: italic;
+    font-size: 5.5vh;
+    color: black;
+  }
+
+  .goals h2 {
+    color: black;
+    margin-top: 8vh;
+    font-size: 3.5vh;
+  }
+
+  #contacts {
+    text-align: center;
+    padding: 5vh;
+  }
+  #contacts h4 {
+    font-size: 6vh;
+  }
+
+  #contacts a {
+    font-size: 2.7vh;
+    text-decoration: none;
+    color: white;
+    margin-top: 5vh;
+  }
+  .icon {
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 10vh;
   }
 }
 
@@ -187,66 +276,64 @@ main h2 {
     margin-left: 3vw;
     margin-top: 4vh;
   }
-}
+  #projects {
+    background-color: #010102;
+    padding: 2% 5%;
+  }
 
-#projects {
-  background-color: #010102;
-  padding: 2% 5%;
-}
+  #projects a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    font-weight: 500;
+  }
 
-#projects a {
-  text-decoration: none;
-  color: white;
-  font-size: 2vh;
-  font-weight: 500;
-}
+  #projects h2 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 5vh;
+    margin-bottom: 4vh;
+  }
 
-#projects h2 {
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-size: 5vh;
-  margin-bottom: 4vh;
-}
+  #projects img {
+    height: 50vh;
+    border: 3px solid gray;
+    border-radius: 1%;
+  }
 
-#projects img {
-  height: 50vh;
-  border: 3px solid gray;
-  border-radius: 1%;
-}
+  .project-container {
+    display: flex;
+    margin-top: 10vh;
+  }
 
-.project-container {
-  display: flex;
-  margin-top: 10vh;
-}
+  .project-description {
+    color: white;
+  }
 
-.project-description {
-  color: white;
-}
+  .project-description h3 {
+    font-size: 4vh;
+    font-style: italic;
+  }
 
-.project-description h3 {
-  font-size: 4vh;
-  font-style: italic;
-}
+  .project-description p {
+    font-size: 2.5vh;
+    margin-top: 3vh;
+  }
 
-.project-description p {
-  font-size: 2.5vh;
-  margin-top: 3vh;
-}
+  .booksway-paragraphs {
+    margin-right: 8vw;
+  }
 
-.booksway-paragraphs {
-  margin-right: 8vw;
-}
-
-.langeek-paragraphs {
-  margin-left: 8vw;
+  .langeek-paragraphs {
+    margin-left: 8vw;
+  }
 }
 
 .hidden {
   display: none;
 }
 
-/* CSS */
 .button-28 {
   appearance: none;
   font-size: 2vh;

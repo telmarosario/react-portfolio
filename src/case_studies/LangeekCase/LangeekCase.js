@@ -99,7 +99,7 @@ function LangeekCase() {
           <img
             src={langeekProfile}
             alt=""
-            className="intro-langeek-img"
+            className="langeek-profile"
             style={{ marginTop: "5vh" }}
           />
           <div className="langeek-ps" style={{ marginTop: "7vh" }}>

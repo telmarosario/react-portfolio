@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Langeek() {
   return (
     <div className="project-container">
-      <img src={langeekDemo} alt="langeek demo" />
+      <img src={langeekDemo} alt="langeek demo" className="project-lan-img" />
       <div className="project-description langeek-paragraphs">
         <h3>Langeek</h3>
         <p>

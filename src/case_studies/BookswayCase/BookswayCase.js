@@ -104,7 +104,7 @@ function BookswayCase() {
         <img
           src={BooksSearch}
           alt=""
-          className="intro-langeek-img"
+          className="books-search"
           style={{ marginTop: "5vh" }}
         />
         <div className="langeek-ps" style={{ marginTop: "7vh" }}>
@@ -132,6 +132,7 @@ function BookswayCase() {
             src={BooksResponsive}
             alt="reponsive layout"
             style={{ marginBottom: "5vh" }}
+            className="book-responsive"
           />
         </div>
         <div className="booksway-responsive">

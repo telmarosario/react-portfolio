@@ -33,11 +33,14 @@
   }
 
   .books-search {
-    height: 20vh;
+    width: 80vw;
   }
 
   .intro-langeek {
     margin-top: 5vh;
+  }
+  .langeek-res {
+    width: 80vw;
   }
 
   .langeek-ps {

@@ -124,6 +124,7 @@ function LangeekCase() {
               src={langeekResponsive}
               alt="reponsive layout"
               style={{ marginBottom: "5vh" }}
+              className="langeek-res"
             />
             <span className="responsive-span">
               Langeek is fully responsive thanks to the Bootstrap grid

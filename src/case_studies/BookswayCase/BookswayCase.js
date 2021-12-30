@@ -67,9 +67,9 @@ function BookswayCase() {
         <div className="langeek-flex">
           <div className="signup-info">
             <p>
-              Booksway has an API server that interacts with the database,
-              deployed on Heroku, and a client-side built with React, deployed
-              on Netlify.
+              BooksWay has an API server that interacts with the database,
+              deployed on Heroku. The client-side was built with React and
+              deployed on Netlify.
             </p>
             <p>
               This full-stack web application intends to show how users can
@@ -114,7 +114,7 @@ function BookswayCase() {
             class components.
           </p>
           <p>
-            Booksway uses React hooks(useEffect, useState, useRef, useContext)
+            BooksWay uses React hooks(useEffect, useState, useRef, useContext)
             for most of its features, including the chat that allows the user to
             talk to other people. BooksWay also uses controlled forms that send
             data to the API.
@@ -134,14 +134,14 @@ function BookswayCase() {
             style={{ marginBottom: "5vh" }}
           />
         </div>
-        <div className="post-info">
-          <span className="responsive-span">
-            BooksWay is fully responsive thanks to the Bootstrap grid
+        <div className="booksway-responsive">
+          <span>
+            BooksWay is fully responsive thanks to the Bootstrap grid.
           </span>
-          <b>Features to come</b>
+          <b>Features to come:</b>
           <ul>
-            <li>Notifications</li>
-            <li>Reviews for sellers </li>
+            <li>Notifications;</li>
+            <li>Reviews for sellers; </li>
             <li>Mark books as sold/traded.</li>
           </ul>
         </div>

@@ -13,8 +13,8 @@ function Booksway() {
         </p>
         <p className="booksway-paragraphs">
           People can search books they are looking for or take a peek at their
-          favorite genre. When they see a book they like, message the user that
-          posted directly with the built-in chat.
+          favorite genre. When they see a book they like, they can message the
+          person directly with the built-in chat.
         </p>
         <a
           href="https://booksway2.netlify.app/"

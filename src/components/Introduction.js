@@ -9,9 +9,8 @@ function Introduction() {
           the tech world!
         </p>
         <p>
-          Programming puts my best qualities to the test : I'm
-          <b>organized</b> , <b>focused</b> and eager to <b>learn</b> new
-          things.
+          Programming puts my best qualities to the test : I'm <b> organized</b>{" "}
+          , <b>focused</b> and eager to <b>learn</b> new things.
         </p>
         <h2>When I'm not coding I am...</h2>
         <ul>

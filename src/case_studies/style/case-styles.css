@@ -79,7 +79,6 @@
   text-align: left;
   margin-left: 5vw;
   margin-top: 10vh;
-  max-height: 50vh;
 }
 
 .post-img {
@@ -123,4 +122,25 @@
 .post-info li {
   margin-top: 1vh;
   font-size: 2vh;
+}
+
+.booksway-responsive {
+  padding: 2vw;
+  border: solid 0.5vw black;
+  height: 50vh;
+  text-align: left;
+  margin-left: 5vw;
+}
+
+.booksway-responsive span {
+  font-size: 2.5vh;
+}
+
+.booksway-responsive b {
+  display: block;
+  margin-top: 3vh;
+}
+
+.booksway-responsive li {
+  font-size: 2.3vh;
 }

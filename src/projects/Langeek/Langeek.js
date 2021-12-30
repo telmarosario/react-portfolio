@@ -8,8 +8,8 @@ function Langeek() {
       <div className="project-description langeek-paragraphs">
         <h3>Langeek</h3>
         <p>
-          Social media app for people to share their language learning journeys
-          and connect with others.
+          Langeek is a social media app for people to share their language
+          learning journeys and connect with others.
         </p>
         <a
           href="https://langeek.herokuapp.com/"

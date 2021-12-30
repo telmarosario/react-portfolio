@@ -114,8 +114,7 @@ function LangeekCase() {
               each other to allow easy access to the information.
             </p>
             <p>
-              Logins and logouts are executed with expression sessions and
-              cookies.
+              Logins and logouts are executed with express sessions and cookies.
             </p>
           </div>
         </div>
@@ -132,8 +131,8 @@ function LangeekCase() {
           </div>
           <div className="post-info">
             <p>
-              This is a group project executed with a colleague which gave me
-              the opportunity to practice using git and GitHub collaboratively.
+              This was a group project which gave me the opportunity to practice
+              using git and GitHub collaboratively.
             </p>
             <p>
               <b>Challenges:</b>
